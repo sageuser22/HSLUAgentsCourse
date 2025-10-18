@@ -65,9 +65,8 @@ def check_api_key() -> Tuple[bool, str]:
     
     api_key = os.getenv("OPENAI_API_KEY")
     if api_key and api_key != "your_openai_api_key_here":
-        # Mask the key for security
-        masked = api_key[:7] + "..." + api_key[-4:] if len(api_key) > 11 else "***"
-        return True, f"API key found: {masked}"
+        # Don't log any part of the API key for security
+        return True, "API key configured"
     else:
         return False, "API key not configured in .env"
 

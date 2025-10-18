@@ -97,7 +97,10 @@ class WebSearchAgent:
             logger.info(f"Fetching content from: {url}")
             
             # For mock URLs, return mock content
-            if "example.com" in url:
+            # Use proper URL parsing to check the domain
+            from urllib.parse import urlparse
+            parsed_url = urlparse(url)
+            if parsed_url.netloc == "example.com":
                 return f"This is mock content from {url}. In production, this would contain the actual webpage text extracted using BeautifulSoup."
             
             response = self.session.get(url, timeout=10)
