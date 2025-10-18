@@ -36,7 +36,7 @@ def check_dependencies() -> List[Tuple[str, bool, str]]:
     
     packages = [
         ("openai", "OpenAI API client"),
-        ("dotenv", "Environment variable management"),
+        ("dotenv", "python-dotenv package"),
         ("requests", "HTTP library"),
         ("bs4", "BeautifulSoup for web scraping"),
         ("pydantic", "Data validation"),
@@ -115,8 +115,8 @@ def main():
     
     # Check Python version
     print_header("1. Python Version")
-    passed, msg = check_python_version()
-    print_result("Python version check", passed, msg)
+    python_passed, python_msg = check_python_version()
+    print_result("Python version check", python_passed, python_msg)
     
     # Check dependencies
     print_header("2. Dependencies")
@@ -127,11 +127,11 @@ def main():
     
     # Check .env file
     print_header("3. Environment Configuration")
-    passed, msg = check_env_file()
-    print_result("Environment file", passed, msg)
+    env_passed, env_msg = check_env_file()
+    print_result("Environment file", env_passed, env_msg)
     
     # Check API key (only if .env exists)
-    if passed:
+    if env_passed:
         api_passed, api_msg = check_api_key()
         print_result("OpenAI API key", api_passed, api_msg)
     else:
@@ -147,19 +147,19 @@ def main():
     
     # Check basic functionality
     print_header("5. Basic Functionality")
-    passed, msg = check_basic_functionality()
-    print_result("Tool functions", passed, msg)
+    func_passed, func_msg = check_basic_functionality()
+    print_result("Tool functions", func_passed, func_msg)
     
     # Summary
     print_header("SUMMARY")
     
     all_checks = [
-        ("Python version", check_python_version()[0]),
+        ("Python version", python_passed),
         ("Dependencies", all_deps_ok),
-        ("Environment file", check_env_file()[0]),
+        ("Environment file", env_passed),
         ("API key", api_passed),
         ("Module imports", all_imports_ok),
-        ("Basic functionality", check_basic_functionality()[0]),
+        ("Basic functionality", func_passed),
     ]
     
     passed_count = sum(1 for _, passed in all_checks if passed)
@@ -178,7 +178,7 @@ def main():
         print("\nCommon fixes:")
         if not all_deps_ok:
             print("  - Run: pip install -r requirements.txt")
-        if not check_env_file()[0]:
+        if not env_passed:
             print("  - Run: cp .env.example .env")
         if not api_passed:
             print("  - Edit .env and add your OpenAI API key")
