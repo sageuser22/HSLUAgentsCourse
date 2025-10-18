@@ -1,1 +1,1 @@
-# HSLUAgentsCourse
+# HSLU Agents Course
