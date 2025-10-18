@@ -16,7 +16,12 @@ def print_header(text: str):
     print("="*70)
 
 def print_result(test_name: str, passed: bool, message: str = ""):
-    """Print a test result."""
+    """
+    Print a test result.
+    
+    Note: This function prints messages to stdout. Do not pass sensitive
+    information (API keys, passwords, etc.) in the message parameter.
+    """
     status = "✓ PASS" if passed else "✗ FAIL"
     print(f"{status:8} | {test_name}")
     if message:
