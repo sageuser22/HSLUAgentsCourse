@@ -1,0 +1,25 @@
+{
+  "started": "2025-10-23T18:19:29.259164Z",
+  "agent_runs": [
+    {
+      "ts": "2025-10-23T18:19:54.294151Z",
+      "agent": "requirements_agent",
+      "model": "gpt-5",
+      "duration_s": 25.034,
+      "attempt": 1,
+      "prompt_chars": 1750,
+      "output_chars": 2300
+    }
+  ],
+  "errors": [
+    {
+      "ts": "2025-10-23T18:19:54.302238Z",
+      "stage": "exception",
+      "error": "2 validation errors for GrantRequirements\nattachments.0\n  Input should be a valid string [type=string_type, input_value={'name': '1-page budget',... 'PDF', 'page_limit': 1}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type\nattachments.1\n  Input should be a valid string [type=string_type, input_value={'name': 'Proof of nonpro...etter', 'format': 'PDF'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+    }
+  ],
+  "inputs": {
+    "idea_file": "./sample-docs/idea.txt",
+    "grant_file": "./sample-docs/grant.txt"
+  }
+}

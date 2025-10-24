@@ -1,0 +1,24 @@
+{
+  "thesis": "Community Solar & Resilience Hubs (CSRH) will deliver two resident-governed solar+storage hubs at an East Side cooling center and food pantry in Detroit. The microgrant funds community leadership, O&M workforce pipeline, design/interconnection, and rigorous M&E to unlock larger capex—serving 3,000+ low-income residents within 18 months, cutting 150 tCO2e/yr and 25% average energy bills.",
+  "proof_points": [
+    "Community-led: resident steering committee with decision power; stipends; bilingual outreach.",
+    "Differentiation: depth-over-scale two-site pilot; paid O&M pipeline; rigorous CO2e accounting; community ownership; integration with ECN and city networks (vs broader EPA multi-hub).",
+    "Sites: MOUs in hand (cooling center, pantry); critical loads defined; preliminary one-lines; vendor shortlist.",
+    "Feasibility: interconnection pre-check with DTE; permitting path confirmed; standard UL-listed equipment.",
+    "Measurement: metered PV/battery loads, outage hours, bill data; open dashboard; third-party M&E plan.",
+    "Risks/mitigation: interconnection delays→early apps/utility liaison; supply chain→multi-vendor specs; community fatigue→paid co-design; O&M continuity→trained cohort + service contract; permitting→early AHJ coordination.",
+    "Timeline (18 mo): 0–3 governance setup; 3–6 design/permitting; 6–12 procurement/install; 12–15 commissioning/training; 15–18 M&E/reporting.",
+    "US-based; low-income beneficiaries; indirects ≤10%; aligns with rubric on relevance, impact, feasibility, capacity, measurement.",
+    "Attachments: MOUs, partner letters (ECN/City), vendor quotes, site maps, training curriculum, eval plan, Gantt, bios."
+  ],
+  "outcomes": [
+    "2 solar+storage hubs commissioned; 48+ hours critical-load backup per site.",
+    "≥150 tCO2e avoided/year; 3,000 tCO2e over 20 years.",
+    "3,000+ residents served; 25% average bill savings for host facilities.",
+    "12 paid trainees; ≥8 placed in jobs or retained for O&M.",
+    "Resident governance bodies formalized; 8+ public workshops delivered.",
+    "≥95% system uptime; ≥90% outage events covered for critical loads.",
+    "Open-source O&M playbook published; annual M&E report submitted."
+  ],
+  "value_for_money": "Ask: $100,000 (Direct $90k: $30k design/interconnection, $20k community governance/stipends, $20k workforce training, $10k M&E setup, $10k site readiness/permitting; Indirect $10k, 10%). Leveraged capex ≈$900k from Kresge (Detroit), McGregor Fund, MI EGLE community energy grants, DOE Solar for All (MI), DTE rebates, Enterprise Community Partners (9:1 leverage). Microgrant cost ≈$33/tCO2e (lifecycle) and ≈$33/resident served. Funds de-risk interconnection, strengthen community ownership, and create a replicable O&M pipeline—positioning CSRH ahead of broader-but-thinner competitors."
+}

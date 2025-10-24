@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "section": "Executive Summary",
+      "target_words": 150,
+      "key_messages": [
+        "CSRH will install two community solar + battery resilience hubs on Detroit’s East Side at essential-service sites (a cooling center and a food pantry) to provide clean power daily and life-sustaining services during grid outages.",
+        "The project delivers measurable impact: an estimated 150 tCO2e/year reduced, average 25% electricity bill savings for host sites, and uninterrupted access to cooling, device charging, refrigeration, and communications during emergencies.",
+        "An 18-month, shovel-ready workplan covers community co-design, engineering, interconnection, procurement, installation, commissioning, and a pilot operations phase with workforce training for local residents.",
+        "Community ownership and governance will ensure long-term financial sustainability, reinvest savings locally, and build trust through transparent decision-making and shared benefits.",
+        "A strong coalition—facility partners, a community-based organization, an experienced solar+storage developer, workforce/evaluation partners, and utility/city coordination—will de-risk delivery and scale lessons citywide."
+      ]
+    },
+    {
+      "section": "Community Need & Beneficiaries",
+      "target_words": 250,
+      "key_messages": [
+        "Detroit’s East Side faces high energy burdens, frequent outages, and heat/cold stress that disproportionately impact low-income households, seniors, medically vulnerable residents, and people relying on refrigeration for food and medications.",
+        "Essential-service sites—cooling centers and food pantries—are trusted, accessible anchors that already serve residents daily and become critical lifelines during extreme weather and grid disruptions.",
+        "Current gaps include limited backup power, insufficient cooling capacity during heat emergencies, and rising utility costs that constrain service hours and program offerings at community facilities.",
+        "CSRH beneficiaries include facility clients, nearby households within walking distance, and staff/volunteers; co-benefits include safer spaces during emergencies, device charging, cold storage for perishables and medicines, and reduced pollution exposure.",
+        "The project was shaped with community input gathered through listening sessions, surveys, and partner meetings, ensuring culturally responsive services, convenient hours, and clear communication channels before, during, and after emergencies."
+      ]
+    },
+    {
+      "section": "Project Description & Workplan",
+      "target_words": 450,
+      "key_messages": [
+        "Solution: Two behind-the-meter solar PV arrays with battery storage and islandable microgrid controls at a cooling center and a food pantry, providing daily bill savings and resilient power for critical loads during outages.",
+        "Scope of work: site assessments and load profiling; community co-design workshops; engineering and interconnection applications; permitting; procurement (PV, batteries, inverters, switchgear, EMS); construction; commissioning; staff training; and initial O&M.",
+        "18-month timeline with milestones: Months 1–3 engagement, needs assessment, and site control confirmation; Months 4–6 design, permitting, and interconnection submittals; Months 7–12 procurement and installation; Months 10–14 workforce training and mock drills; Months 13–15 commissioning and handover; Months 12–18 pilot operations and evaluation.",
+        "Resilience operations: pre-identified critical circuits (cooling, lights, refrigeration, device charging, communications), load-shed strategies, and islanding protocols integrated with emergency response plans and public communications.",
+        "Community ownership and governance: formation of a community advisory group, pathway to community ownership (e.g., cooperative or trust structure), transparent benefit-sharing policies, and host-site agreements specifying public access during emergencies.",
+        "Workforce development: paid training in solar, storage, and O&M for local residents, with safety certifications and hands-on hours during installation and the first year of operations; clear pathways to placements with contractor partners.",
+        "Risk management: early utility coordination to de-risk interconnection; permit pre-application meetings; contingency for supply-chain delays and change orders; insurance, warranties, cybersecurity for EMS, and a funded O&M reserve.",
+        "Scalability and replication: standardized designs, open-source playbooks for community engagement and resilience operations, and data-sharing with city and regional partners to inform future hub deployments."
+      ]
+    },
+    {
+      "section": "Outcomes & Measurement",
+      "target_words": 250,
+      "key_messages": [
+        "Environmental outcomes: 150 tCO2e/year avoided; on-site renewable generation (kWh) and battery throughput tracked via EMS; reduction in diesel generator reliance at critical facilities.",
+        "Resilience outcomes: hours of critical load coverage during outages, number of residents served during emergency events, uptime of cooling/refrigeration, and successful execution of resilience drills.",
+        "Economic outcomes: 25% average electricity bill savings for host sites; documentation of reinvestment of savings into expanded services, extended hours, or client assistance.",
+        "Workforce outcomes: number of trainees enrolled, training hours, certifications earned, job placements/retention, and participation of priority populations from the East Side.",
+        "Equity and engagement outcomes: community ownership enrollment, governance participation rates, satisfaction surveys, multilingual outreach reach, ADA accessibility checks, and grievance resolution metrics; data reported quarterly with a learning agenda and continuous improvement cycles."
+      ]
+    },
+    {
+      "section": "Team & Partnerships",
+      "target_words": 200,
+      "key_messages": [
+        "Lead applicant coordinates project management, compliance, and reporting, with a community-based organization co-leading engagement, governance, and benefit-sharing design.",
+        "Facility partners (cooling center and food pantry) provide sites, host critical loads, and commit to public access during emergencies through MOUs and operational protocols.",
+        "Technical partners include an experienced solar+storage EPC/developer, electrical engineer of record, and a controls/EMS provider, all with relevant safety and quality certifications.",
+        "Workforce and evaluation partners deliver training, certifications, placement support, and independent monitoring, evaluation, and learning (MEL).",
+        "Readiness: site control letters in progress, utility pre-application engagement initiated, permitting pathways identified, and a steering group established for rapid decision-making."
+      ]
+    },
+    {
+      "section": "Budget & Justification",
+      "target_words": 200,
+      "key_messages": [
+        "Major cost categories: solar PV modules/racking, inverters, battery systems, switchgear and microgrid controls, electrical and structural work, permitting/inspections, and commissioning.",
+        "Programmatic costs include community engagement, resilience planning and drills, workforce training stipends/instruction, MEL, and an O&M reserve to ensure long-term reliability.",
+        "Budget prioritizes direct project delivery with minimal administrative overhead; procurement will seek competitive bids and local sourcing where feasible to reduce costs and build community wealth.",
+        "Leverage strategy: stack available federal/utility incentives and philanthropic or private match where eligible to maximize grant impact and extend benefits.",
+        "Cost-effectiveness: pairing daily bill savings with resilience value and workforce pathways, while community ownership structures recycle savings into continued operations and services."
+      ]
+    },
+    {
+      "section": "Equity & Inclusion",
+      "target_words": 200,
+      "key_messages": [
+        "Community-led design: residents and facility users inform siting, hours, services, and communications through listening sessions, surveys, and a standing advisory group with decision-making power.",
+        "Inclusive benefits: no-cost access during emergencies, multilingual signage and outreach, ADA-compliant spaces, and culturally responsive programming at both hubs.",
+        "Economic inclusion: prioritize hiring and training East Side residents, including underemployed and justice-impacted individuals, with paid training and clear job placement pathways.",
+        "Community ownership and governance: mechanisms for community shares or trust participation, transparent benefit allocations, and annual public reporting on impacts and finances.",
+        "Ongoing accountability: open feedback channels, grievance processes, and annual equity audits to track who benefits, identify gaps, and adjust program delivery."
+      ]
+    }
+  ]
+}

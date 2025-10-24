@@ -1,11 +1,3 @@
-Title: Rural STEM Lab Initiative
+Project Title: Community Solar & Resilience Hubs (CSRH)
 
-Our nonprofit plans to create a small STEM learning lab in Pine Valley, a rural community with limited access to technology. The lab will offer weekly hands-on workshops in robotics, coding, and basic engineering for middle and high school students.
-
-Goals:
-- Reach 100 local students within the first year.
-- Improve STEM engagement and career readiness.
-- Partner with schools and local businesses to sustain programming.
-
-Expected Impact:
-Students will gain practical problem-solving experience, exposure to STEM careers, and access to modern tools that rural schools currently lack.
+Renew Together will install two solar-powered community resilience hubs in Detroit’s low-income East Side neighborhoods. Each hub will provide clean energy to essential facilities like cooling centers and food pantries while training residents in solar maintenance. The project will reduce emissions by about 150 metric tons annually and cut utility costs by 25%. Over 18 months, it will engage local partners to install systems, host energy workshops, and ensure community-led operations. By combining renewable energy, workforce training, and neighborhood ownership, CSRH strengthens climate resilience and equity for over 3,000 residents.
