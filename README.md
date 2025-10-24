@@ -2,7 +2,7 @@ Here is a complete README file for your project, structured to explain the 4-exa
 
 -----
 
-```md
+
 # Grant Writing Assistant: Multi-Agent Coordination Examples
 
 This repository demonstrates how to build a sophisticated, multi-agent system using the OpenAI Agents SDK. The project progressively builds from a single simple agent to a robust, multi-agent orchestrator that automates the grant writing process.
@@ -20,32 +20,6 @@ The final example (`bp_assistant_full.py`) takes a project idea and a grant desc
     * **Review Guardrails**: Dedicated agents check the draft for inclusivity, bias, and factual accuracy.
 * **Parallel Processing**: The architecture is designed for specialist agents (like drafting and review) to be run in parallel, speeding up the process.
 * **Structured I/O**: Uses Pydantic models to ensure all data passed between agents is structured, validated, and reliable.
-
----
-
-## 🏗️ Project Structure
-
-This repository is structured to show a logical progression of agent complexity.
-
-```
-
-.
-├── grant\_assistants/
-│   ├── **init**.py
-│   ├── grant\_fit\_simple\_agent.py   \# Example 1: Single Agent
-│   ├── bp\_assistant\_seq.py         \# Example 2: Sequential Agents
-│   ├── bp\_assistant\_orc.py         \# Example 3: Orchestrator Pattern
-│   ├── bp\_assistant\_full.py        \# Example 4: Full Guard-railed Orchestrator
-│   └── ... (other examples)
-├── sample-docs/
-│   ├── idea.txt                    \# Sample idea file
-│   └── grant.txt                   \# Sample grant description
-├── .env.example                    \# API Key template
-├── LICENSE
-├── pyproject.toml                  \# Poetry dependencies
-└── README.md
-
-````
 
 ---
 
