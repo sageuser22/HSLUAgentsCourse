@@ -1,0 +1,23 @@
+[project]
+name = "grant-assistant"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Desara Xhura",email = "desara@sagewrite.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+]
+[tool.poetry.dependencies]
+python = "^3.10"
+openai-agents = "^0.4.0"        # or newer 0.4.x
+python-dotenv = "^1.0.1"
+pydantic = "^2.7"               # v2 required by newer agents builds
+
+[tool.poetry]
+packages = [{include = "grant_assistant", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
